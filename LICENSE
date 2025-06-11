@@ -1,24 +1,25 @@
-This is free and unencumbered software released into the public domain.
+Usage License – AutoAPRS Beaconing System
+Copyright © [2025] YN1JLX / ATLAS / TheCrypteXOR
+All rights reserved.
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
+❖ Usage Permission
+This software is distributed in compiled (binary) format only, and is allowed to be used for personal, educational, or experimental purposes. Use in critical systems, commercial environments, or government applications is not authorized without prior written consent from the author.
 
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
+❖ Restrictions
+It is strictly prohibited to:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
+Reverse-engineer, decompile, disassemble, or attempt to access the source code of the program.
 
-For more information, please refer to <https://unlicense.org>
+Modify, redistribute, or resell this software, whether in part or in whole.
+
+Use this software for malicious purposes, mass automation, or identity spoofing on APRS networks or other amateur radio platforms.
+
+❖ Intellectual Property
+This program, its design, operational logic, and general concept are the intellectual property of the author. Usage does not imply any transfer of rights, patents, or ownership.
+
+❖ Warranty and Liability
+This software is provided "as is", with no warranty of any kind, express or implied. The author shall not be held liable for any direct or indirect damages, data loss, transmission errors, network conflicts, or any other consequences resulting from the use of this program.
+
+❖ Contact
+For bug reports, suggestions, or to request extended usage permission, you may contact the developer:
+YN1JLX – ATLAS / TheCrypteXOR
