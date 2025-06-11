@@ -1,0 +1,97 @@
+# General configuration file for AutoAPRS | YN1JLX
+# Do NOT add inline comments on the same line as a configuration value
+# This file must follow the 'key=value' format for correct parsing
+
+################################################################################
+# APRS Passcode is automatically calculated from your callsign using a hash,
+# so there's no need to enter it manually. This keeps your configuration simple.
+# 
+# IMPORTANT: Do not misuse this feature, and NEVER spoof or impersonate a callsign.
+################################################################################
+
+# APRS Callsign and SSID
+callsign=YN1XXX-1
+
+# Latitude in APRS format:
+# Example: 12.14.38N should be written as 1214.38N (drop the first dot).
+# You can get this value from www.aprs.fi by clicking a point on the map.
+latitude=1214.38N
+
+# Longitude in APRS format:
+# Example: 086.00.08W should be written as 08600.08W (drop the first dot).
+longitude=08600.08W
+
+# Comment text to appear on the beacon
+# This usually describes the station, its purpose, or its status.
+comment=AutoAPRS Beaconing System
+
+# Status or QRG (frequency in use, or text-based state)
+# This can be anything from operational info, to QRV notes, or just an identifier.
+state=AutoAPRS Software System
+
+# -------------------------------------------------------------------------------
+# Symbol Table Identification (Primary Table)
+# This determines which symbol *table* you're using.
+# For example:
+# '/' = Primary Table (default objects like cars, houses, weather, etc.)
+# '\' = Alternate Table (includes icons like satellites, balloons, etc.)
+# Always use one character only.
+# -------------------------------------------------------------------------------
+symbol_primary=/
+
+# -------------------------------------------------------------------------------
+# Symbol Code (Secondary Symbol)
+# This represents the actual object icon on APRS maps.
+# Must be ONE character, from the chosen symbol table.
+# Example: 'n' = Node / Digipeater / Node with EchoLink
+#          '>' = Car
+#          '_' = Weather Station
+#          'k' = School
+#          'W' = Flooded Area
+# Use the table below to pick the right one.
+# -------------------------------------------------------------------------------
+symbol_secondary=n
+
+# APRS-IS server (public APRS internet backbone)
+# Choose from: rotate.aprs2.net, noam.aprs2.net, euro.aprs2.net, etc.
+server_host=rotate.aprs2.net
+
+# APRS-IS server port (usually 14580 for filtered connections)
+server_port=14580
+
+# Time interval in minutes between each beacon transmission
+every=10
+
+################################################################################
+# APRS SYMBOL TABLE
+# This is a summary from the APRS specification for quick reference.
+#
+# Format: symbol_primary + symbol_secondary = displayed icon
+# - Primary Table: '/'
+# - Alternate Table: '\'
+#
+# Some common symbol_secondary values:
+#   /r = Repeater
+#   /n = Node / EchoLink Node
+#   /> = Car / Mobile
+#   /k = School
+#   /_ = Weather Station
+#   /> = Car
+#   /- = House
+#   /Y = Yellow Ball / Static Object
+#   /\ = Yagi / Antenna
+#   /s = Ship / Boat
+#   /p = Portable / Person
+#   /b = Balloon
+#   /O = HF Gateway
+#
+# You can explore the full tables here:
+# https://blog.thelifeofkenneth.com/2017/01/aprs-symbol-look-up-table.html
+# Or directly on:
+# https://www.aprs.org/symbols.html
+#
+# Recommendations:
+# - Pick symbols that best describe your station (car, weather, node, balloon, etc.)
+# - Keep your comment and state brief (ideally under 43 characters)
+# - Use the proper table (primary `/` or alternate `\`) to match your symbol code.
+################################################################################
