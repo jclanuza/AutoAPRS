@@ -25,31 +25,31 @@ The software operates via TCP, following the APRS protocol specifications, and c
 ini
 Copy
 Edit
-# General AutoAPRS Configuration | YN1JLX
-# Do NOT write inline comments on config lines.
+> General AutoAPRS Configuration | YN1JLX
+  Do NOT write inline comments on config lines.
 
-# Callsign with SSID
+* Callsign with SSID
 callsign=YN1XXX-1
 
-# Latitude and longitude (no leading dot, use N/S and E/W)
+* Latitude and longitude (no leading dot, use N/S and E/W)
 latitude=1214.38N
 longitude=08600.08W
 
-# APRS comment (e.g. location or purpose)
+* APRS comment (e.g. location or purpose)
 comment=AutoAPRS Beaconing System
 
-# Station status or additional text
+* Station status or additional text
 state=AutoAPRS Software System
 
-# Symbol table selection (primary) and icon (secondary)
+* Symbol table selection (primary) and icon (secondary)
 symbol_primary=/
 symbol_secondary=n
 
-# APRS-IS server and port
+* APRS-IS server and port
 server_host=rotate.aprs2.net
 server_port=14580
 
-# Time between beacons, in minutes
+* Time between beacons, in minutes
 every=10
 For help choosing the correct APRS symbols and table codes, refer to:
 📚 https://blog.thelifeofkenneth.com/2017/01/aprs-symbol-look-up-table.html
